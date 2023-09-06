@@ -1,0 +1,13 @@
+{
+  "name": "my-awesome-scraper",
+  "version": "1.0.0",
+  "description": "an awesome web scraper",
+  "main": "index.js",
+  "author": "Tyson Lind",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  }
+}
