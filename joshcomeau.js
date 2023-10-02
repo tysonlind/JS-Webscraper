@@ -1,12 +1,16 @@
 import { blogScraper } from "./blog-scraper.js";
 
-const url = "https://www.joshwcomeau.com/";
+const gobbledygook = "https://www.joshwcomeau.com/";
+
+const stuffToGrab = ['img', 'p', 'h2'];
+
+const title = 'h3';
 
 const joshComeau = async () =>  {
 
 
 
-    blogScraper(url, 'article', 'h3');
+    blogScraper(gobbledygook, stuffToGrab, title);
 
 }
 
